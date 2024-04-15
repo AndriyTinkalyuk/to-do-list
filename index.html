@@ -7,8 +7,27 @@
     <link rel="stylesheet" href="style/css/stylesheet.css">
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="to_do_list">
+            <div class="to_do_list_conteiner">
+                <div class="to_do_list_body">
+                    <input type="text" class="to_do_list_input">
+                    <button class="to_do_list_button"><img src="icons/plus.png" alt="plus"></button>
+                </div>
+                <div class="to_do_list_filter">
+                    <select name="to_do_list_select" id="list_select" class="to_do_list_select"> 
+                        <option value="all">All</option>
+                        <option value="completed">completed</option>
+                        <option value="incomplete">incomplete</option>
+                    </select>
+                </div>
+                <div class="to_do_list_display"> 
 
-    <script src="scr/main.js"></script>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="module" src="src/main.js"></script>
 </body>
 </html>
