@@ -8,15 +8,14 @@ const taskButton = document.querySelector('.to_do_list_button');
 const filterSelect = document.querySelector('.to_do_list_filter');
 const todo_display = document.querySelector('.to_do_list_display')
 
+const tasksList = [];
+
 
 todo_display.addEventListener("click", (event) => removeTask(tasksList, event));
 todo_display.addEventListener("click", (event) => checkTask(tasksList, event));
 filterSelect.addEventListener("change", filter);
 taskButton.addEventListener("click", () => addTask(tasksList));
 
-
-
-const tasksList = [];
 
 
 window.addEventListener('beforeunload', () => {

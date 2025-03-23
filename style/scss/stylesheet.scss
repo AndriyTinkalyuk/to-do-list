@@ -83,7 +83,6 @@ body {
 
             span {
                 margin-right: 10px;
-                background-color: red;
             }
 
             .to_do_title {
@@ -95,6 +94,7 @@ body {
                 width: 20px;
                 height: 20px;
                 cursor: pointer;
+                margin: 5px;
 
                 &:hover {
                     opacity: 0.7;
@@ -104,8 +104,8 @@ body {
     }
 }
 .to_do_task.completed {
-    // Застосовуємо інші стилі до завдань, які вже виконані
-    background-color: #d3d3d3; // Сірий фон
-    text-decoration: line-through; // Перекреслений текст
-    opacity: 0.6; // Прозорість, для підсилення ефекту виконаного завдання
+  
+    background-color: #d3d3d3; 
+    text-decoration: line-through; 
+    opacity: 0.6; 
 }
